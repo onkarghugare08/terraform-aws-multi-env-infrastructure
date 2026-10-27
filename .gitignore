@@ -1,0 +1,30 @@
+# Terraform working files
+.terraform/
+.terraform.lock.hcl.bak
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH keys (never commit)
+keys/
+*.pem
+*-terra-key
+*-terra-key.pub
+
+# Secret variable files
+*.auto.tfvars
+secret.tfvars
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
